@@ -1,0 +1,19 @@
+{
+  "name": "kristinagroeger",
+  "version": "1.0.0",
+  "description": "My very own personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gringogidget/kristinaGroeger.com.git"
+  },
+  "author": "Kristina Groeger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gringogidget/kristinaGroeger.com/issues"
+  },
+  "homepage": "https://github.com/gringogidget/kristinaGroeger.com#readme"
+}
