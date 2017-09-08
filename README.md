@@ -2,4 +2,3 @@
 My personal website of goodies.
 :surfer: :computer:
 # kristinaGroeger.com
-# kristinaGroeger.com
