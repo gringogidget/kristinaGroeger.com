@@ -1,88 +1,65 @@
 body {
   font-size: 1rem;
-    background: darkgrey url("https://s3.amazonaws.com/aws-website-kgdotcom-spmpi/img/noise.png") repeat fixed center;
-}
+  background: darkgrey url("https://s3.amazonaws.com/aws-website-kgdotcom-spmpi/img/noise.png") repeat fixed center;
   font-family: 'Sofia', Arial, Helvetica, sans-serif;
 }
-
 .red {
   background: red;
   border: 1px solid black;
 }
-
 h1 {
   line-height: 80px;
   font-size: 8rem;
-  margin-top: 80px;
+  margin-top: 40px;
   font-weight: 300;
   text-align: center;
-  font-family: Sofia;
-  line-spacing: 4px;
+  letter-spacing: 4px;
   letter-spacing: 1rem !important;
 }
-
 .neon {
   font-family: Quicksand;
   color: #fff;
-  text-shadow: 0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #0077c5,
-    0 0 80px #15efe9,
-    0 0 90px #15efe9,
-    0 0 300px #15efe9,
-    0 0 450px #15efe9;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0077c5, 0 0 80px #15efe9, 0 0 90px #15efe9, 0 0 300px #15efe9, 0 0 450px #15efe9;
 }
-
 .board {
   display: block;
   margin: auto;
   width: 40%;
   margin-top: 80px;
 }
-
 .container {
-  margin-top: 80px;
+  margin-top: 40px;
 }
-
 .row {
   line-height: 0px;
 }
-
 .shelves {
   width: 100%;
+  margin-bottom: 20px;
 }
-
+#topShelfPad {
+  margin-bottom: 56px;
+}
 #board {
   padding-top: 64px;
 }
-
 #bbhouse {
   margin-left: 35%;
 }
-
-.plant01 {
+#plant01 {
   width: 32%;
 }
-
-.secondShelf, .thirdShelf {
-  padding-top: 40px;
+#plant02 {
+  width: 40%;
+  margin-left: 16%;
 }
-
+#plant03 {
+  width: 32%;
+  margin-left: 4%;
+}
 .books {
   width: 40%;
 }
-
-#plant03 {
-  width: 32%;
-  margin: 0 16% 0 0;
-}
-
-#plant02 {
-  width: 32%;
-  margin-left: 48%;
-}
-
 p {
   position: absolute;
   color: #f4f6f8;
@@ -92,38 +69,30 @@ p {
   line-height: 40px;
   font-weight: 300;
 }
-
 a {
-    color: #ff88ec;
+  color: #ff88ec;
 }
-
-.footer {
-  background: #000 url("http://api.thumbr.it/whitenoise-361x370.png?background=#393a3dff&noise=000000&density=41&opacity=34") repeat;
-  height: 200px;
+#coffee {
+  width: 20%;
+  margin-left: 16%;
 }
-
-img#coffee {
-  width: 24%;
-}
-
-div#smoke {
-  width: 16%;
-  margin: 10px 0 100px 0;
-}
-
 #smoke {
-  margin: 0 0 70px 50px;
   z-index: -1;
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 20px 0 10px 10px #c5c2c2;
+  margin-left: 16%;
+  width: 6%;
+  height: 4px;
+  -webkit-box-shadow: 20px 0 10px 10px #c5c2c2;bu
   -moz-box-shadow: 0px 0 10px 10px #c5c2c2;
   box-shadow: 0px 0 10px 15px #c5c2c2;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   position: relative;
-  -webkit-animation-name: smoke; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: smoke;
+  /* Safari 4.0 - 8.0 */
+
+  -webkit-animation-duration: 7s;
+  /* Safari 4.0 - 8.0 */
+
   animation-name: smoke, smoke02;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -131,34 +100,161 @@ div#smoke {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes smoke {
-  0%  {background-color: grey; left:0px; top:100px; opacity:10;}
-  10%  {background-color: grey; left:5px; top:90px;}
-  20%  {background-color: grey; left:15px; top:80px;}
-  30%  {background-color: grey; left:25px; top:70px;}
-  40%  {background-color: grey; left:15px; top:60px;}
-  50%  {background-color: grey; left:5px; top:50px;}
-  60%  {background-color: grey; left:0px; top:40px;}
-  70%  {background-color: grey; left:5px; top:30px;}
-  80%  {background-color: grey; left:15px; top:20px;}
-  90%  {background-color: grey; left:25px; top:10px;}
-  100% {background-color: grey; left:15px; top:0px; opacity:0;}
-}
+  0% {
+    background-color: grey;
+    left: 0px;
+    top: 100px;
+    opacity: 10;
+  }
 
+  10% {
+    background-color: grey;
+    left: 5px;
+    top: 90px;
+  }
+
+  20% {
+    background-color: grey;
+    left: 15px;
+    top: 80px;
+  }
+
+  30% {
+    background-color: grey;
+    left: 25px;
+    top: 70px;
+  }
+
+  40% {
+    background-color: grey;
+    left: 15px;
+    top: 60px;
+  }
+
+  50% {
+    background-color: grey;
+    left: 5px;
+    top: 50px;
+  }
+
+  60% {
+    background-color: grey;
+    left: 0px;
+    top: 40px;
+  }
+
+  70% {
+    background-color: grey;
+    left: 5px;
+    top: 30px;
+  }
+
+  80% {
+    background-color: grey;
+    left: 15px;
+    top: 20px;
+  }
+
+  90% {
+    background-color: grey;
+    left: 25px;
+    top: 10px;
+  }
+
+  100% {
+    background-color: grey;
+    left: 15px;
+    top: 0px;
+    opacity: 0;
+  }
+}
 @keyframes smoke {
-  0%  {background-color: #babec5; left:0px; top:100px; opacity:0.2; -webkit-transform: scale: (5);}
-  10%  {background-color: #babec5; left:5px; top:90px;}
-  20%  {background-color: #babec5; left:15px; top:80px;}
-  30%  {background-color: #babec5; left:25px; top:70px;}
-  40%  {background-color: #babec5; left:15px; top:60px;}
-  50%  {background-color: #babec5; left:5px; top:50px;}
-  60%  {background-color: #babec5; left:0px; top:40px;}
-  70%  {background-color: #babec5; left:5px; top:30px;}
-  80%  {background-color: #babec5; left:15px; top:20px;}
-  90%  {background-color: #babec5; left:25px; top:10px;}
-  100% {background-color: #babec5; left:15px; top:0px; opacity:0; -webkit-transform: scale: (0);}
-}
+  0% {
+    background-color: #babec5;
+    left: 0px;
+    top: 100px;
+    opacity: 0.8;
+    -webkit-transform: scale: (5);
+  }
 
+  10% {
+    background-color: #babec5;
+    left: 5px;
+    top: 90px;
+  }
+
+  20% {
+    background-color: #babec5;
+    left: 15px;
+    top: 80px;
+  }
+
+  30% {
+    background-color: #babec5;
+    left: 25px;
+    top: 70px;
+  }
+
+  40% {
+    background-color: #babec5;
+    left: 15px;
+    top: 60px;
+  }
+
+  50% {
+    background-color: #babec5;
+    left: 5px;
+    top: 50px;
+  }
+
+  60% {
+    background-color: #babec5;
+    left: 0px;
+    top: 40px;
+  }
+
+  70% {
+    background-color: #babec5;
+    left: 5px;
+    top: 30px;
+  }
+
+  80% {
+    background-color: #babec5;
+    left: 15px;
+    top: 20px;
+  }
+
+  90% {
+    background-color: #babec5;
+    left: 25px;
+    top: 10px;
+  }
+
+  100% {
+    background-color: #babec5;
+    left: 15px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transform: scale: (0);
+  }
+}
+.footer {
+  background: #000 url("http://api.thumbr.it/whitenoise-361x370.png?background=#393a3dff&noise=000000&density=41&opacity=34") repeat;
+  height: 132px;
+  margin-top: 80px;
+  bottom: 0px;
+}
 .social {
-  width: 20px;
-  margin: 20px;
+  padding-top: 32px;
+  width: 100%;
+  margin-top: 64px;
+  opacity: 0.4;
+}
+img.one.column {
+  width: 4%;
+  margin: 16px;
+}
+.wrapper {
+  width: 100%;
 }
