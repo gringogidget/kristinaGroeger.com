@@ -1,45 +1,44 @@
-/* iPhone5 Query */
+/* iPhone 5 */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-@media only screen and (max-width: 320px) {
-
-h1.neon {
-  margin: auto;
-  width: 96%;
-  line-height: 40px;
-  font-size: 4rem;
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 1.2rem !important;
-}
-#board {
-  padding: none;
-}
-
-img#board {
-  width: 100%;
+body {
+    background: lightblue;
+  }
+h1 {
+    text-align: center !important;
+    line-height: 42px;
+    font-size: 4rem;
 }
 p {
-  position: absolute;
-  color: #f4f6f8;
-  padding: 8px 0 0 12px;
-  font-size: 2rem;
-  font-family: 'Oswald', sans-serif;
-  line-height: 28px;
-  font-weight: 300;
+    font-size: 2.5rem;
+    width: 320px;
 }
-div.five.columns.firstShelf, div.five.columns.secondShelf {
-  display: none;
+
+/* iPhone6 */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 569px)
+  and (max-device-width: 766px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+body {
+    background: red;
+  }
 }
-.footer {
-  margin-top: 40px;
-  height: 64;
-}
-div.social {
-  opacity: 0.4;
-  display: block;
-  width: 100%;
-}
-img.one.column {
-  margin: 10px;
-}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    body {
+        background: green;
+      }
+    }
 }
