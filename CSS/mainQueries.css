@@ -1,44 +1,88 @@
-/* iPhone 5 */
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
 
-body {
-    background: lightblue;
-  }
-h1 {
-    text-align: center !important;
-    line-height: 42px;
-    font-size: 4rem;
-}
+/* tablet landscape */
+
+@media (max-width: 1024px) {
 p {
-    font-size: 2.5rem;
-    width: 320px;
+  font-size: 2.55em
+}
+img.one.column {
+    margin: 24px;
 }
 
-/* iPhone6 */
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 569px)
-  and (max-device-width: 766px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+/* tablet */
 
-body {
-    background: red;
+@media (max-width: 768px) {
+  html, body {
+    margin: 0px;
+    padding: 0px;
+  }
+  p {
+    font-size: 2em;
+  }
+  p.six.columns.wordWrap {
+    padding-left: 15px;
+  }
+  img.one.column {
+    width: 20%;
+    margin: 0;
+    padding: 40px 10px;
   }
 }
+/* large mobile landscape */
+@media (max-width: 667px) {
+p {
+  font-size: 1.7em;
+}
+}
+/* small mobile landscape */
+@media (max-width: 568px) {
+p {
+  font-size: 1.45em;
+}
+}
+/* large mobile portrait */
 
-/* ----------- iPad 1 and 2 ----------- */
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media (max-width: 425px) {
+  html, body {
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 57px;
+  }
+  .container {
+    margin-top: 0;
+  }
+  .five.columns.firstShelf, .five.columns.secondShelf {
+    display: none;
+  }
+  p {
+    font-size: 2em;
+  }
+  p.wordWrap {
+    width: 14.5em;
+    padding-top: 95px;
+  }
+  img#plant02 {
+    margin-top: 40px;
+  }
+  img.one.column {
+    width: 20%;
+    margin: 0px;
+    padding: 40px 10px;
+  }
+  .social {
+    width: 72%;
+  }
+}
+/* small mobile portrait */
 
-    body {
-        background: green;
-      }
-    }
+@media (max-width: 320px) {
+  .neon {
+    font-size: 4.5rem !important;
+  }
+  p {
+    font-size: 1.75em !important;
+  }
 }
