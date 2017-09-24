@@ -1,0 +1,34 @@
+#pushPin {
+  position: absolute;
+  z-index: 1;
+  top: 133px;
+  right: 202px;
+  left: 70%;
+  display: block;
+  width: 8%;
+  margin: auto;
+      font-size: 3rem;
+}
+
+.five.columns.firstShelf, .five.columns.secondShelf {
+  display: none;
+}
+
+.five.columns.thirdShelf {
+  margin-top: 509px;
+}
+
+.six.columns.wordWrap {
+  padding-top: 60px;
+}
+
+#photograph {
+  position: absolute;
+  width: 30%;
+}
+
+img#photograph {
+  width: 32%;
+  margin: 150px 0 0 55%;
+  box-shadow: 10px 10px 20px 0px #000;
+}
