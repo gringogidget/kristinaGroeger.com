@@ -1,3 +1,7 @@
+a#dontUnderline {
+  text-decoration: none;
+}
+
 #pushPin {
   position: absolute;
   z-index: 1;
@@ -7,7 +11,7 @@
   display: block;
   width: 8%;
   margin: auto;
-      font-size: 3rem;
+  font-size: 3rem;
 }
 
 .five.columns.firstShelf, .five.columns.secondShelf {
@@ -30,5 +34,74 @@
 img#photograph {
   width: 32%;
   margin: 150px 0 0 55%;
-  box-shadow: 10px 10px 20px 0px #000;
+  box-shadow: 10px 10px 0px 0px #6b6c72;
+}
+
+/* tablet landscape */
+
+@media (max-width: 1024px) {
+  img#photograph {
+    margin-top: 90px;
+  }
+  #pushPin {
+    top: 73px;
+  }
+  .five.columns.thirdShelf {
+    margin-top: 439px;
+  }
+}
+
+/* tablet portrait */
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1.95em;
+  }
+  .six.columns.wordWrap {
+    padding-top: 52px;
+  }
+  img#photograph {
+    margin-top: 86px;
+  }
+  #pushPin {
+    top: 60px;
+  }
+  .five.columns.thirdShelf {
+    margin-top: 349px;
+  }
+}
+
+/* big boy phone landscape */
+@media (max-width: 736px) {
+p {
+    font-size: 1.85em;
+  }
+p.six.columns.wordWrap {
+    padding-top: 58px;
+}
+}
+/* phones */
+
+@media (max-width: 425px) {
+  #photograph {
+    position: relative;
+  }
+  img#photograph {
+    width: 66%;
+    margin: 40px 0 0 50px;
+  }
+  #pushPin {
+    top: -20px;
+    right: 201px;
+    left: 160px;
+  }
+  p.six.columns.wordWrap {
+    padding-top: 142px;
+  }
+  img#board {
+    margin-top: 80px;
+  }
+  .five.columns.thirdShelf {
+    margin-top: 40px;
+}
 }
