@@ -1,0 +1,251 @@
+
+.board {
+  display: block;
+  width: 40%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.row {
+  line-height: 0px;
+}
+
+.shelves {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#topShelfPad {
+  margin-bottom: 56px;
+}
+
+#bbhouse {
+  margin-left: 35%;
+}
+
+#plant01 {
+  width: 32%;
+}
+
+#plant02 {
+  width: 40%;
+  margin-left: 16%;
+}
+
+#plant03 {
+  width: 32%;
+  margin-left: 4%;
+}
+
+.books {
+  width: 40%;
+}
+
+p {
+  position: absolute;
+  padding: 32px 0 0 20px;
+  color: #f4f6f8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+p.wordWrap {
+  width: 12em;
+  padding: 80px 0 0 32px;
+  word-wrap: break-word;
+}
+
+img#board {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+a {
+  color: #ff88ec;
+}
+
+#coffee {
+  width: 20%;
+  margin-left: 16%;
+}
+
+#smoke {
+  position: relative;
+  z-index: -1;
+  width: 6%;
+  height: 4px;
+  margin-left: 20%;
+  -webkit-animation-name: smoke;
+  /* Safari 4.0 - 8.0 */
+  animation-name: smoke, smoke02;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-box-shadow: 20px 0 10px 10px #c5c2c2;
+  -moz-box-shadow: 0px 0 10px 10px #c5c2c2;
+  box-shadow: 0px 0 10px 15px #c5c2c2;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes smoke {
+  0% {
+    top: 100px;
+    left: 0px;
+    opacity: 10;
+    background-color: grey;
+  }
+  10% {
+    top: 90px;
+    left: 5px;
+    background-color: grey;
+  }
+  20% {
+    top: 80px;
+    left: 15px;
+    background-color: grey;
+  }
+  30% {
+    top: 70px;
+    left: 25px;
+    background-color: grey;
+  }
+  40% {
+    top: 60px;
+    left: 15px;
+    background-color: grey;
+  }
+  50% {
+    top: 50px;
+    left: 5px;
+    background-color: grey;
+  }
+  60% {
+    top: 40px;
+    left: 0px;
+    background-color: grey;
+  }
+  70% {
+    top: 30px;
+    left: 5px;
+    background-color: grey;
+  }
+  80% {
+    top: 20px;
+    left: 15px;
+    background-color: grey;
+  }
+  90% {
+    top: 10px;
+    left: 25px;
+    background-color: grey;
+  }
+  100% {
+    top: 0px;
+    left: 15px;
+    opacity: 0;
+    background-color: grey;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    top: 100px;
+    left: 0px;
+    -webkit-transform: scale: (5);
+    opacity: 0.8;
+    background-color: #babec5;
+  }
+  10% {
+    top: 90px;
+    left: 5px;
+    background-color: #babec5;
+  }
+  20% {
+    top: 80px;
+    left: 15px;
+    background-color: #babec5;
+  }
+  30% {
+    top: 70px;
+    left: 25px;
+    background-color: #babec5;
+  }
+  40% {
+    top: 60px;
+    left: 15px;
+    background-color: #babec5;
+  }
+  50% {
+    top: 50px;
+    left: 5px;
+    background-color: #babec5;
+  }
+  60% {
+    top: 40px;
+    left: 0px;
+    background-color: #babec5;
+  }
+  70% {
+    top: 30px;
+    left: 5px;
+    background-color: #babec5;
+  }
+  80% {
+    top: 20px;
+    left: 15px;
+    background-color: #babec5;
+  }
+  90% {
+    top: 10px;
+    left: 25px;
+    background-color: #babec5;
+  }
+  100% {
+    top: 0px;
+    left: 15px;
+    -webkit-transform: scale: (0);
+    opacity: 0;
+    background-color: #babec5;
+  }
+}
+
+.footer {
+  bottom: 0px;
+  height: 132px;
+  margin-top: 80px;
+  background: #000 url("http://api.thumbr.it/whitenoise-361x370.png?background=#393a3dff&noise=000000&density=41&opacity=34") repeat;
+}
+
+.social {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding-top: 8px;
+  opacity: 0.4;
+}
+
+img.one.column {
+  width: 8%;
+  margin: 32px;
+}
+
+/* ABOUT PAGE */
+
+#photograph {
+  display: block;
+  margin: auto;
+  width: 50%;
+  box-shadow: 10px 10px 20px 0px #000;
+}
