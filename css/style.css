@@ -1,56 +1,32 @@
+@font-face {
+  font-family: url('fonts/life.otf');
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  background: darkgrey url("https://s3.amazonaws.com/aws-website-kgdotcom-spmpi/img/noise.png") repeat fixed center;
+  font-family: 'TiemposText-Regular', sans-serif;
+  position: relative;
+/*  background: linear-gradient(0deg, #F2E7DD, #F28C8C); */
 }
 
-.centered {
-  margin: auto;
-  display: block;
+h1 {
+
+  color: black;
+  letter-spacing: 0.125rem;
+  margin-top: 3rem;
 }
 
-.neon {
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0077c5, 0 0 80px #15efe9, 0 0 90px #15efe9, 0 0 300px #15efe9, 0 0 450px #15efe9;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 100px;
-  line-height: 100px;
-  margin: 160px 0 120px 0;
+p {
+
+  color: black;
+  font-size: 2rem;
 }
 
-.board {
-  width: 400px;
+.navbar-right {
+  float: right!important;
 }
 
-.shelves {
-  width: 420px;
-}
-
-@media (max-width: 40em) {
-  .shelves {
-    display: none;
-  }
-}
-
-#plant01, #plant02, #plant03 {
-  position: absolute;
-}
-
-#plant01 {
-  margin: -29% 0 0 54%;
-  width: 22%;
-}
-
-#plant02 {
-  margin: 3%;
-}
-
-#plant03 {
-  margin: 3% 0 0 15%;
-      width: 28%;
-}
-
-.books {
-  width: 220px;
-  margin: 31px 0 0 224px;
+a.navbar-brand {
+  margin-right: 21rem;
 }

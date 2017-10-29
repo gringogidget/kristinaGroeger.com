@@ -45,13 +45,16 @@
   width: 40%;
 }
 
+.absolute {
+position: absolute;
+}
+
 p {
-  position: absolute;
   padding: 32px 0 0 20px;
   color: #f4f6f8;
   font-family: 'Oswald', sans-serif;
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -65,6 +68,10 @@ img#board {
   width: 100%;
   height: auto;
   margin-top: 40px;
+}
+
+img.board.centered {
+    z-index: -1;
 }
 
 a {
